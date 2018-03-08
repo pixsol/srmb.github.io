@@ -1,0 +1,428 @@
+
+.mainDiv{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.childDiv{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+body, ul, li {
+  margin: 0;
+  padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover, a.active, a.activated, a:focus{
+    text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+}
+.marquee{
+    overflow: hidden;
+}
+.marquee p{
+    padding: 15px 0;
+    margin: 0px;
+}
+.banner{
+    max-height: 280px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    display: block
+}
+.nav{
+    margin-top: 13px;
+}
+.navbar{
+    min-height: 70px;
+    margin-bottom: 0px;
+}
+.bannerBtmMenu.navbar{
+    min-height: 40px;
+    margin-bottom: 0px;
+}
+.bannerBtmMenu.navbar .nav{
+    margin-top: 0px;
+    float: none;
+    text-align: center
+}
+.bannerBtmMenu.navbar .nav li{
+    display: inline-block;
+    float: none;
+}
+.navbar a:hover{
+    cursor: pointer;
+}
+.navbar-brand{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 70px;
+}
+.navbar-brand img{
+    width: 30%;
+    display: inline-block;
+}
+.socialIcon{
+    margin: 8px 0;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.socialIcon a{
+    padding: 6px !important;
+    background: none;
+}
+.socialIconFB:hover{
+    background: #3b5998;
+    border: 1px solid #3b5998;
+}
+.socialIconTW:hover{
+    background: #00bbf4;
+    color: #fff;
+    border: 1px solid #00bbf4;
+}
+.socialIconLD:hover{
+    background: #007ab9;
+    color: #fff;
+    border: 1px solid #007ab9;
+}
+.socialIconYT:hover{
+    background: #e02f2f;
+    color: #fff;
+    border: 1px solid #e02f2f;
+}
+.socialIcon a:hover i{
+    color: #fff;
+}
+
+/* slider */
+#wrapper{
+    height: 300px;
+}
+.slider-wrapper{
+    height: 100%;
+}
+#slider{
+    margin-bottom: 0px;
+    height: 100%;
+}
+#slider img{
+    height: 300 !important;
+}
+.nivo-controlNav{
+    display: none;
+}
+
+/* bodySection1 */
+
+.bodySection{
+    margin: 30px 0;
+}
+.bodySection .innerBorder > img{
+    width: 100%;
+    margin: 15px auto;
+    display: block;
+}
+.bodySection h2{
+    display: block;
+    margin: 0px 0px 15px 0px;
+    font-size: 20px;
+    color: #666;
+    font-weight: normal;
+    text-align: left;
+    line-height: 22px;
+    height: 40px;
+}
+.bodySection p{
+    line-height: 20px;
+    font-size: 14px;
+    color: #999;
+    text-align: justify;
+    margin: 10px auto;
+}
+.bodySection .bodySectionCol .innerBorder .contentHeading{
+    height: 56px;
+    background: #00c4b4;
+}
+.bodySection .bodySectionCol .innerBorder .contentDiv{
+    height: 146px;
+    padding: 10px;
+}
+.bodySection .bodySectionCol .innerBorder .contentDiv2{
+    height: 146px;
+    padding: 10px;
+}
+.bodySection .bodySectionCol .innerBorder a{
+    display: block;
+    color: #808080;
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+}
+.bodySection .bodySectionCol .innerBorder h4, .bodySection .bodySectionCol .innerBorder li{
+    margin: 0px 0px 8px 0;
+}
+.bodySection .bodySectionCol .innerBorder h4, .bodySection .bodySectionCol .innerBorder h4 strong,
+.bodySection .bodySectionCol .innerBorder li{
+    font-size: 12px;
+    text-align: left;
+    line-height: 14px;
+}
+.bodySection .bodySectionCol .microsoft{
+    height: 130px;
+    margin-bottom: 10px;
+}
+.bodySection .bodySectionCol .microsoft .bottomtotop span{
+    display: block;
+}
+.bodySection .lrnMore{
+    color: #005e56;
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #005e56;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bodySection1{
+    margin-bottom: 15px;
+}
+
+#tabBody{
+    border: 1px solid rgba(204, 204, 204, 0.3);
+    margin-top: 20px;
+}
+#tabBody .tabMenu{
+    margin-top: 0px;
+    border-bottom: 1px solid #ccc;
+    display: table;
+    width: 100%;
+}
+#tabBody .tabMenu li{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+}
+#tabBody .tabMenu li a{
+    border-radius: 0px;
+    font-weight: bold;
+    background: #f8f8f8;
+    color: #a2a0a0;
+}
+#tabBody .tabMenu li.active a{
+    background: #e2e2e2;
+    color: #737373;
+}
+#tabBody .tabBodyContent{
+    padding: 15px;
+}
+#tabBody .tabBodyContent p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #666;
+    margin-bottom: 8px;
+}
+#tabBody .tabBodyContent p strong{
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+}
+#tabBody .tabBodyContent ul{
+    padding-left: 15px;
+}
+#tabBody .tabBodyContent ul li{
+    margin-bottom: 8px;
+    line-height: 24px;
+    color: #666;
+    font-size: 16px;
+}
+#tabBody .tabBodyContent ul li strong{
+    color: #999;
+}
+button.readMore{
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+.rightBanner{
+    width: 100%;
+    margin-top: 20px;
+}
+.rightBanner img{
+    width: 90%;
+    display: block;
+    margin: 0px auto;
+    border-radius: 4px;
+}
+
+
+/* About */
+
+#aboutSec1{
+    margin: 20px 0;
+}
+#aboutSec1 h2{
+    font-size: 24px;
+    margin: 10px 0px;
+    position: relative;
+    padding-bottom: 10px;
+}
+#aboutSec1 h2:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #666;
+    height: 2px;
+    width: 110px;
+    display: block;
+}
+#aboutSec1 p{
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+
+/* Conatct */
+
+#contactSec1{
+    margin: 20px 0;
+}
+#contactSec1 p{
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+
+/* Member Type */
+
+#memTypeSec1{
+    margin: 20px 0;
+}
+#memTypeSec1 p{
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+#memTypeSec1 h2{
+    font-size: 24px;
+    margin: 10px 0px;
+    position: relative;
+    padding-bottom: 10px;
+}
+#memTypeSec1 h2:after{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: #666;
+    height: 2px;
+    width: 175px;
+    display: block;
+}
+#memTypeSec1 h5{
+    font-size: 18px;
+    margin: 15px 0;
+}
+#memTypeSec1 ul{
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+#memTypeSec1 ul li{
+    line-height: 20px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #666;
+}
+
+img.memInfo{
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* BOG Member */
+
+.bogMemSec{
+    margin: 15px 0;
+}
+.bogMemSec .container{
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    background: #efefef;
+}
+.bogMemSec .container h2{
+    margin: 0px;
+}
+.bogMemSec .container p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.bogMemSec .container .profDetailCol p{
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    line-height: 20px;
+}
+.bogMemSec .container .profImage{
+    min-width: 120px;
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+    border-radius: 10px;
+}
+.bogMemSec .container .profDesc{
+    margin: 15px 0;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 10px 0;
+    background: #666;
+}
+footer p{
+    text-align: center;
+    margin: 0px;
+    color: #fff;
+}
+
+
+
+/* Comming Soon */
+
+.commingSoonBanner{
+    height: 300px;
+    overflow: hidden;
+}
+.commingSoonBanner img{
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+    margin-top: -190px;
+}
+.commingBlock1{
+    height: 500px;
+}
+.commingBlock1 img{
+    display: block;
+    margin: 0px auto;
+}
