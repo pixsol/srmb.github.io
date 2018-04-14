@@ -4,3 +4,8 @@
         margin-bottom: 10px;
     }
 }
+@media screen and (min-width: 1366px) {
+    .navbar-default .navbar-brand{
+        font-size: 22px;
+    }
+}
